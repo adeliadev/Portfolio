@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #0A0A0A;
+    background-color: #ffffff;
+    font-family: "Roboto Mono";
+}
+
+.container_header{
+    background-color: transparent;
+    padding: 10px 40px;
+}
+
+.content_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_header{
+    display: flex;
+}
+
+.title_header a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.nav_link{
+    list-style: none;
+    padding-right: 50px;
+}
+
+.nav_link a{
+    text-decoration: none;
+}
+
+.nav_link a:hover{
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.nav_link:last-child{
+    padding: 0;
+}
+
+.line_header{
+    width: 100vw;
+    height: 2px;
+    background-color: #0A0A0A;
+}
+
+.container_home {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_home {
+    text-align: center;
+    height: 140px;
+    width: fit-content; /* Definindo uma largura para centralizar */
+    margin: 0 auto;
+}
+
+.name_home{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.position_home{
+    margin-bottom: 25px;
+}
+
+.buttons_home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button{
+    padding: 8px 65px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0A0A0A;
+    border-radius: 10px;
+    border: none;
+}
