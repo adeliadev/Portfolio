@@ -18,36 +18,36 @@
             <ul class="nav_header">
                 <li class="nav_link"><a href="#home">Home</a></li>
                 <li class="nav_link"><a href="#about">Sobre</a></li>
-                <li class="nav_link"><a href="">Projetos</a></li>
-                <li class="nav_link"><a href="">Conhecimentos</a></li>
+                <li class="nav_link"><a href="#skills">Conhecimentos</a></li>
+                <li class="nav_link"><a href="#projects">Projetos</a></li>
             </ul>
         </nav>
         <div class="line_header"></div>
     </header>
 
-    <main class="container_main">
+    <main>
         <section id="home" class="container_home">
             <div class="content_home">
                 <h2 class="name_home">Thamyres Rodrigues.</h2>
                 <p class="position_home">Desenvolvedora Back-end</p>
                 <div class="buttons_home">
-                    <a href="CV_Thamyres_Rodrigues.pdf" target="_blank" class="button">CV</a>
+                    <a href="assets/CV_Thamyres_Rodrigues.pdf" target="_blank" class="button">CV</a>
                     <a href="github.com/adeliadev" target="_blank" class="button">Github</a>
                 </div>
             </div>
         </section>
 
-        <div  class="scroll_home">
-            <a href="#about"  class="scroll_text">
-                <p>Scroll down</p>
+        <div class="scroll_down">
+            <a class="scroll_down_text">
+                <p id="scrollDown">Scroll down</p>
             </a>
-            <a href="#about">
-                <img src="Scroll_Down.svg" alt="">
+            <a id="scrollDownImg" class="scroll_img">
+                <img src="assets/Scroll_Down.svg" alt="round arrow">
             </a>
         </div>
 
-        <section id="about" class="container_about">
-            <div class="content_about">
+        <section>
+            <div id="about" class="content_about">
                 <div class="info_about">
                     <div class="title_and_text_about">
                         <h2 class="title_about">Sobre mim</h2>
@@ -69,13 +69,91 @@
                     </div>
 
                     <div class="img_about">
-                        <img src="img_about.jpg" alt="">
+                        <img src="assets/img_about.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="skills" class="container_skills">
+            <div class="content_skills">
+                <h2 class="title_skills">Conhecimentos</h2>
+                <p class="text_skills">em constante aprendizado</p>
+                <div class="skills_list">
+                    <div class="skills_item">
+                        <img src="assets/Java.svg" alt="">
+                        <p>Java</p>
+                    </div>
+
+                    <div class="skills_item">
+                        <img src="assets/Python.svg" alt="">
+                        <p>Python</p>
+                    </div>
+
+                    <div class="skills_item">
+                        <img src="assets/PostgreSQL.svg" alt="">
+                        <p>PostgreSQL</p>
+                    </div>
+
+                    <div class="skills_item">
+                        <img src="assets/Git.svg" alt="">
+                        <p>Git</p>
+                    </div>
+
+                    <div class="skills_item">
+                        <img src="assets/Html5.svg" alt="">
+                        <p>Html5</p>
+                    </div>
+
+                    <div class="skills_item">
+                        <img src="assets/CSS3.svg" alt="">
+                        <p>Css3</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="projects">
+                <div class="content_projects">
+                    <h2 class="title_projects">Projetos</h2>
+                    <p class="text_projects">mais recentes</p>
+                    <div class="cards_projects">
+                        <div class="content_card">
+                            <h2 class="name_card">Nome do projeto</h2>
+                            <p class="description_card">Lorem ipsum dolor sit amet consectetur. Tortor ut diam justo
+                                suspendisse mi lacus libero cum faucibus.</p>
+                            <a href="" class="button_card">Ver repositório</a>
+                        </div>
+
+                        <div class="content_card">
+                            <h2 class="name_card">Nome do projeto</h2>
+                            <p class="description_card">Lorem ipsum dolor sit amet consectetur. Tortor ut diam justo
+                                suspendisse mi lacus libero cum faucibus.</p>
+                            <a href="" class="button_card">Ver repositório</a>
+                        </div>
+
+                        <div class="content_card">
+                            <h2 class="name_card">Nome do projeto</h2>
+                            <p class="description_card">Lorem ipsum dolor sit amet consectetur. Tortor ut diam justo
+                                suspendisse mi lacus libero cum faucibus.</p>
+                            <a href="" class="button_card">Ver repositório</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="scroll_up">
+            <img id="scrollToTop" src="assets/scroll_up.svg" alt="Scroll to top">
+        </div>
     </main>
 
+    <footer>
+        <div class="content_footer"></div>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
