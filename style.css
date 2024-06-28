@@ -235,6 +235,8 @@
     border-radius: 10px;
     padding: 50px 10px;
     width: 250px;
+    height: 300px;
+    text-align: center;
 }
 
 .name_card{
@@ -265,9 +267,12 @@
 
 .scroll_up{
     width: 800px;
-    cursor: pointer;
     height: 50px;
     padding-left: 1370px;
+}
+
+.scroll_up img{
+    cursor: pointer;
 }
 
 
