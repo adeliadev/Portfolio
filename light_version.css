@@ -1,6 +1,6 @@
 :root {
-    --black: #0A0A0A;
-    --white: #FFFFFF;
+    --black: #0a0a0a;
+    --white: #ffffff;
     --title: 35px
 }
 
@@ -8,7 +8,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: var(--white);
+    color: var(--black);
     font-family: "Roboto Mono";
 }
 
@@ -20,7 +20,7 @@
 }
 
 .content_header {
-    background-color: var(--black);
+    background-color: var(--white);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,14 +57,10 @@
 
 .line_header {
     padding: 1px 0;
-    background-color: var(--white);
+    background-color: var(--black);
 }
 
-/* MAIN AND HOME*/
-
-main{
-    background-color: #0A0A0A;
-}
+/* HOME */
 
 .container_home {
     height: 630px;
@@ -80,7 +76,7 @@ main{
     width: fit-content;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid var(--white);
+    border: 2px solid var(--black);
     border-radius: 10px;
 }
 
@@ -104,15 +100,14 @@ main{
     padding: 8px 65px;
     text-align: center;
     text-decoration: none;
-    color: var(--black);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--black);
     border-radius: 10px;
     border: none;
 }
 
 .button:hover{
     background-color: #98729f;
-    color: var(--white);
 }
 
 /* SCROLL DOWN*/
@@ -159,7 +154,7 @@ main{
 
 .img_about img {
     object-fit: cover;
-    border: 1px solid var(--white);
+    border: 1px solid var(--black);
     border-radius: 10px;
     width: 300px;
     height: 410px;
@@ -185,7 +180,7 @@ main{
 }
 
 .text_skills{
-    color: var(--white);
+    color: var(--black);
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -196,7 +191,7 @@ main{
     gap: 30px;
     width: 600px;
     padding: 8px 20px;
-    border: 1px solid var(--white);
+    border: 1px solid var(--black);
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -236,7 +231,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid var(--white);
+    border: 2px solid var(--black);
     border-radius: 10px;
     padding: 50px 10px;
     width: 250px;
@@ -256,8 +251,8 @@ main{
 }
 
 .button_card{
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--white);
     text-decoration: none;
     padding: 8px 20px;
     border-radius: 10px;
@@ -266,7 +261,6 @@ main{
 
 .button_card:hover{
     background-color: #98729f;
-    color: var(--white);
 }
 
 /* SCROLL UP */
@@ -275,7 +269,7 @@ main{
     width: 800px;
     height: 50px;
     padding-left: 1370px;
-    padding-bottom: 100px;
+    padding-bottom: 101px;
 }
 
 .scroll_up img{
@@ -286,7 +280,7 @@ main{
 /* FOOTER */
 
 .content_footer{
-    background-color: var(--black);
+    background-color: var(--white);
     height: 150px;
 }
 
