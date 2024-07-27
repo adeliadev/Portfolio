@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
     --black: #0A0A0A;
     --white: #FFFFFF;
@@ -9,7 +11,7 @@
     margin: 0;
     box-sizing: border-box;
     color: var(--white);
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono", sans-serif;
 }
 
 /* HEADER */
@@ -55,8 +57,8 @@
     padding-right: 0;
 }
 
-.line_header {
-    padding: 1px 0;
+.line_header, .line_footer {
+    padding: 1px;
     background-color: var(--white);
 }
 
@@ -285,14 +287,18 @@ main{
 
 /* FOOTER */
 
-.content_footer{
+.container_footer{
     background-color: var(--black);
-    height: 150px;
+}
+
+.content_footer{
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .links_footer{
-    padding-top: 50px;
-    padding-left: 30px;
     display: flex;
     align-items: center;
     list-style: none;

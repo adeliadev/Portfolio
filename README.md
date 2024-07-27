@@ -8,5 +8,4 @@
 
 ## 🔧TO-DO
 - Adicionar interações com javascript
-- Deixar o scroll fixo na lateral do site
-- Adicionar avatar no sobre
+- Fazer versão em inglês
