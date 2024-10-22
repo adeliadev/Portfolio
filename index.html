@@ -10,88 +10,98 @@
 </head>
 
 <body>
-    <header class="container_header">
-        <nav class="content_header">
-            <h1 class="title_header"><a href="">AdeliaDev.</a></h1>
-            <ul class="nav_header">
-                <li class="nav_link"><a href="#home">Home</a></li>
-                <li class="nav_link"><a href="#about">Sobre</a></li>
-                <li class="nav_link"><a href="#skills">Conhecimentos</a></li>
-                <li class="nav_link"><a href="#projects">Projetos</a></li>
+    <header class="header">
+        <nav class="header__content">
+            <h1 class="header__title">AdeliaDev.</h1>
+            <ul class="header__nav">
+                <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#about" class="header__nav-link">Sobre</a></li>
+                <li class="header__nav-item"><a href="#skills" class="header__nav-link">Conhecimentos</a></li>
+                <li class="header__nav-item"><a href="#projects" class="header__nav-link">Projetos</a></li>
             </ul>
         </nav>
-        <div class="line_header"></div>
+        <div class="header__line"></div>
     </header>
 
-    <main>
-        <section id="home" class="container_home">
-            <div class="content_home">
-                <h2 class="name_home">Thamyres Rodrigues.</h2>
-                <p class="position_home">Desenvolvedora Back-end</p>
-                <div class="buttons_home">
-                    <a href="assets/CV_Thamyres_Rodrigues.pdf" target="_blank" class="button">CV</a>
+    <main class="main__container">
+        <section id="home" class="home__container">
+            <div class="home__content">
+                <h2 class="home__name">Thamyres Rodrigues.</h2>
+                <p class="home__role">Desenvolvedora Back-end</p>
+                <div class="home__buttons">
+                    <a href="assets/Thamyres_Rodrigues_CV.pdf" target="_blank" class="button">CV</a>
                     <a href="https://github.com/adeliadev" target="_blank" class="button">Github</a>
                 </div>
             </div>
         </section>
 
-        <div class="scroll_down">
-            <a class="scroll_down_text">
+        <div class="scroll">
+            <a class="scroll__text">
                 <p id="scrollDown">Scroll down</p>
             </a>
-            <a id="scrollDownImg" class="scroll_img">
-                <img src="assets/white/scroll_down_white.svg" alt="scroll down">
+            <a id="scrollDownImg" class="scroll__image">
+                <img src="assets/icons/scroll_down_white.svg" alt="scroll down">
             </a>
         </div>
 
         <section>
-            <div id="about" class="content_about">
-                <div class="info_about">
-                    <div class="title_and_text_about">
-                        <h2 class="title_about">Sobre mim</h2>
-                        <p class="text_about">Olá, sou Thamyres Adélia, mas podem me chamar de Adélia. Tenho 21 anos e sempre tive uma paixão por tecnologia, o que me levou a escolher a carreira de desenvolvedora back-end. Atualmente, estou cursando Sistemas para Internet na UNIESP, onde venho focando no desenvolvimento backend, utilizando principalmente Python, Java, Spring Boot e Banco de dados. Quero ser capaz de criar soluções completas e integradas. Além do meu curso, invisto bastante tempo em estudar e me atualizar sobre novas tecnologias e práticas do mercado. Tenho um bom domínio do inglês intermediário, mas continuo estudando para aprimorar minhas habilidades. Estou sempre aberta a novas oportunidades e desafios que me permitam aplicar o meu conhecimento e crescer profissionalmente.</p>
+            <div id="about" class="about__content">
+                <div class="about__info">
+                    <div class="about__description">
+                        <h2 class="about__title">Sobre mim</h2>
+                        <p class="about__text">Olá, sou Thamyres Adélia, mas podem me chamar de Adélia. Tenho 21 anos e
+                            sou apaixonada por tecnologia, o que me levou à carreira de desenvolvedora back-end. Estou
+                            cursando Sistemas para Internet na UNIESP, com foco em backend, utilizando Python, Java,
+                            Spring Boot e Banco de Dados. Além do curso, me dedico a estudar novas tecnologias e
+                            práticas de mercado. Tenho inglês intermediário e estou em constante aperfeiçoamento. Estou
+                            aberta a desafios que me permitam aplicar e expandir meus conhecimentos.</p>
                     </div>
 
-                    <div class="img_about">
+                    <div class="about__image">
                         <img src="assets/img_about.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="container_skills">
-            <div class="content_skills">
-                <h2 class="title_skills">Conhecimentos</h2>
-                <p class="text_skills">em constante aprendizado</p>
-                <div class="skills_list">
-                    <div class="skills_item">
-                        <img src="assets/white/Java_white.svg" alt="">
-                        <p>Java</p>
+        <section id="skills" class="skills__container">
+            <div class="skills__content">
+                <h2 class="skills__title">Conhecimentos</h2>
+                <p class="skills__subtitle">(em constante aprendizado)</p>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <img src="assets/icons/Java_white.svg" alt="" class="skills__icon">
+                        <p class="skills__name">Java</p>
                     </div>
 
-                    <div class="skills_item">
-                        <img src="assets/white/Python_white.svg" alt="">
-                        <p>Python</p>
+                    <div class="skills__item">
+                        <img src="assets/icons/Spring_white.svg" alt="" class="skills__icon">
+                        <p class="skills__name">Spring</p>
                     </div>
 
-                    <div class="skills_item">
-                        <img src="assets/white/PostgreSQL_white.svg" alt="">
-                        <p>PostgreSQL</p>
+                    <div class="skills__item">
+                        <img src="assets/icons/Sql_white.svg" alt="" class="skills__icon">
+                        <p class="skills__name">SQL</p>
                     </div>
 
-                    <div class="skills_item">
-                        <img src="assets/white/Git_white.svg" alt="">
-                        <p>Git</p>
+                    <div class="skills__item">
+                        <img src="assets/icons/Python_white.svg" alt="" class="skills__icon">
+                        <p class="skills__name">Python</p>
                     </div>
 
-                    <div class="skills_item">
-                        <img src="assets/white/Html5_white.svg" alt="">
-                        <p>Html5</p>
+                    <div class="skills__item">
+                        <img src="assets/icons/Git_white.svg" alt="" class="skills__icon">
+                        <p class="skills__name">Git</p>
                     </div>
 
-                    <div class="skills_item">
-                        <img src="assets/white/CSS3_white.svg" alt="">
-                        <p>Css3</p>
+                    <div class="skills__item">
+                        <img src="assets/icons/Html5_white.svg" alt="" class="skills__icon">
+                        <p class="skills__name">Html5</p>
+                    </div>
+
+                    <div class="skills__item">
+                        <img src="assets/icons/CSS3_white.svg" alt="" class="skills__icon">
+                        <p class="skills__name">Css3</p>
                     </div>
                 </div>
             </div>
@@ -105,20 +115,26 @@
                     <div class="cards_projects">
                         <div class="content_card">
                             <h2 class="name_card">Cadastro de produtos</h2>
-                            <p class="description_card">Utilizando Java, criei um cadastro em que os itens são organizados do menor para o maior de acordo com seu preço</p>
-                            <a href="https://github.com/adeliadev/Cadastro_de_produtos" class="button_card" target="_blank">Ver repositório</a>
+                            <p class="description_card">Utilizando Java, criei um cadastro em que os itens são
+                                organizados do menor para o maior de acordo com seu preço</p>
+                            <a href="https://github.com/adeliadev/Cadastro_de_produtos" class="button_card"
+                                target="_blank">Ver repositório</a>
                         </div>
 
                         <div class="content_card">
                             <h2 class="name_card">Conversor de moedas</h2>
-                            <p class="description_card">Conversor de moedas em Java que utiliza a ExchangeRate-API para obter o valor atual da moeda desejada.</p>
-                            <a href="https://github.com/adeliadev/Conversor_de_moedas" class="button_card" target="_blank">Ver repositório</a>
+                            <p class="description_card">Conversor de moedas em Java que utiliza a ExchangeRate-API para
+                                obter o valor atual da moeda desejada. lorem</p>
+                            <a href="https://github.com/adeliadev/Conversor_de_moedas" class="button_card"
+                                target="_blank">Ver repositório</a>
                         </div>
 
                         <div class="content_card">
-                            <h2 class="name_card">Cadastro e login de academia</h2>
-                            <p class="description_card">Projeto em grupo feito com Java, consiste em um sistema de cadastro e login para uma academia fictícia </p>
-                            <a href="https://github.com/adeliadev/Projeto_Academia" class="button_card" target="_blank">Ver repositório</a>
+                            <h2 class="name_card">Fórum de dúvidas (Orbis)</h2>
+                            <p class="description_card">Projeto de extensão feito em grupo, consiste e em um fórum de
+                                dúvidas para estudantes</p>
+                            <a href="https://github.com/adeliadev/Forum_de_duvidas" class="button_card"
+                                target="_blank">Ver repositório</a>
                         </div>
 
                     </div>
@@ -127,7 +143,7 @@
         </section>
 
         <div class="scroll_up">
-            <img id="scrollToTop" src="assets/white/scroll_up_white.svg" alt="scroll up">
+            <img id="scrollToTop" src="assets/icons/scroll_up_white.svg" alt="scroll up">
         </div>
     </main>
 
@@ -136,10 +152,12 @@
 
         <div class="content_footer">
             <ul class="links_footer">
-                <li><img src="assets/white/img_footer.png" alt="" width="40" height="40"></li>
-                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=arodriguesthamyres@gmail.com" target="_blank" class="items_footer">Email</a></li>
+                <li><img src="assets/img_footer.png" alt="" width="40" height="40"></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=arodriguesthamyres@gmail.com" target="_blank"
+                        class="items_footer">Email</a></li>
                 <li><a href="https://github.com/adeliadev" target="_blank" class="items_footer">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/thamyres-ad-rodrigues" target="_blank" class="items_footer">Linkedin</a></li>
+                <li><a href="https://www.linkedin.com/in/thamyres-ad-rodrigues" target="_blank"
+                        class="items_footer">Linkedin</a></li>
             </ul>
         </div>
     </footer>
