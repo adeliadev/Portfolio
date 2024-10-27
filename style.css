@@ -57,7 +57,7 @@
 }
 
 .header__line,
-.line_footer {
+.footer__line {
     padding: 1px;
     background-color: var(--white);
 }
@@ -208,24 +208,24 @@
 
 /* PROJECTS */
 
-.content_projects {
+.projects__content {
     padding: 90px 0 40px 0;
     height: 600px;
 }
 
 
-.title_projects {
+.projects__title {
     font-size: var(--title);
     text-align: center;
 }
 
-.text_projects {
+.projects__text {
     text-align: center;
 
     margin-bottom: 60px;
 }
 
-.cards_projects {
+.projects__cards {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,7 +233,7 @@
 
 }
 
-.content_card {
+.projects__card-content {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -245,18 +245,18 @@
     text-align: center;
 }
 
-.name_card {
+.projects__card-title {
     font-size: 20px;
 }
 
-.description_card {
+.projects__card-description {
     font-size: 14px;
     padding-top: 40px;
     text-align: center;
     flex-grow: 1;
 }
 
-.button_card {
+.projects__card-buttons {
     background-color: var(--white);
     color: var(--black);
     text-decoration: none;
@@ -265,7 +265,7 @@
     font-size: 14px;
 }
 
-.button_card:hover {
+.projects__card-buttons:hover {
     background-color: #98729f;
     color: var(--white);
 }
@@ -286,29 +286,29 @@
 
 /* FOOTER */
 
-.container_footer {
+.footer__container {
     background-color: var(--black);
 }
 
-.content_footer {
+.footer__content {
     padding: 30px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.links_footer {
+.footer__links {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 70px;
 }
 
-.items_footer {
+.footer__link-contact {
     text-decoration: none;
 }
 
-.items_footer:hover {
+.footer__link-contact:hover {
     text-decoration: underline;
     font-weight: 700;
 }
